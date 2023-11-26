@@ -119,7 +119,7 @@ local function draw(self)
 	end
 
 	-- draw the ball
-	ball:draw()
+	ball:draw(255, 255, 255)
 end
 
 local function drawScores(self)

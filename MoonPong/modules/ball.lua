@@ -45,8 +45,10 @@ local function update(self)
 	self.y = self.y + self.yVelocity
 end
 
-local function draw(self)
+local function draw(self, red, green, blue)
+	love.graphics.setColor(red, green, blue)
 	love.graphics.rectangle("fill", self.x, self.y, self.radius, self.radius)
+	love.graphics.setColor(255, 255, 255)
 end
 
 -- module
