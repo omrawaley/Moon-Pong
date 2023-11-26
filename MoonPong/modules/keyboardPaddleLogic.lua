@@ -33,8 +33,6 @@ local keyboardPaddleLogicModule = {}
 function keyboardPaddleLogicModule:new(up, down)
 	local keyboardPaddleLogic =
 	{
-		isAi = false,
-
 		up = up,
 		down = down,
 
