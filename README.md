@@ -25,6 +25,11 @@ The `playerModule` returns a table containing a `paddle` and a `paddleLogic`. Th
 
 The window resolution and such can be modified in the `conf.lua` file.
 
+Since version 1.1.0, you can now change the color of the ball to any RGB value (line 122 of `game.lua`).
+
+<img width="300" alt="image" src="https://github.com/omrawaley/Moon-Pong/assets/133281331/80eb738b-faac-4bb6-976a-8f87ac0d5cb8">
+
+
 ## How to Run
 1. Firstly, make sure LÖVE is installed. You can download it [here](https://love2d.org/). 
 
