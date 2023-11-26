@@ -25,5 +25,12 @@ The `playerModule` returns a table containing a `paddle` and a `paddleLogic`. Th
 
 The window resolution and such can be modified in the `conf.lua` file.
 
+## How to Run
+1. Firstly, make sure LÖVE is installed. You can download it [here](https://love2d.org/). 
+
+2. Next, you can download either the source code or the `.love` file from the [releases section](https://github.com/omrawaley/moon-pong/releases). I recommend the former as you can modify it however you want.
+
+3. If you downloaded the source code, make the MoonPong folder (Note, this is not the folder with `-master` at the end) the current directory and then run `love ./`. (Note, on MacOS you will have to create the `love` alias in your `.zshrc`. See [getting started](https://love2d.org/wiki/Getting_Started) for more information. If you downloaded the `.love` file, simply double click it and Moon Pong will start up.
+
 ## Credits
 Thanks to @Pharap for reviewing the code and making several design suggestions.
