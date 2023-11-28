@@ -15,9 +15,9 @@ The full list:
 - `keyboardPaddleLogicModule`
 - `aiPaddleLogicModule`
 
-The `playerModule` returns a table containing a `paddle` and a `paddleLogic`. The `paddle` can be initialized via the `paddleModule` and the `paddleLogic` can be initialized via the `keyboardPaddleLogicModule` or the `aiPaddleLogicModule`.
+The `playerModule` returns a table containing a `paddle` and a `paddleLogic`. The `paddle` can be initialized via the `paddleModule`, and the `paddleLogic` can be initialized via the `keyboardPaddleLogicModule` or the `aiPaddleLogicModule`.
 
-`paddleModule` stores the paddles data such as the location, velocity, etc. It excepts a single parameter for the `x` value of the paddle.
+`paddleModule` stores the paddle's data such as the location, velocity, etc. It excepts a single parameter for the `x` value of the paddle.
 
 `keyboardPaddleLogicModule` allows the paddle to be controlled via the keyboard. It excepts a two parameters: the up and down key.
 
